@@ -5,7 +5,14 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        'background-dark':'#09090a'
+      },
+      gridTemplateRows:{
+        7: 'repeat(7, minmax(0, 1fr))'
+      }
+    },
   },
   plugins: [],
 }
